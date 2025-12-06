@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using AOC2025CSharp;
 
 Stopwatch sw = new Stopwatch();
@@ -20,5 +21,6 @@ Day5.Part1();
 Day5.Part2();
 
 sw.Stop();
+
 Console.WriteLine($"");
 Console.WriteLine($"Total Elapsed - {sw.Elapsed}");
