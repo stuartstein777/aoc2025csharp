@@ -103,3 +103,4 @@
 /home/stuart/Source/AOC2025CSharp/Tests/obj/Debug/net9.0/Tests.pdb
 /home/stuart/Source/AOC2025CSharp/Tests/obj/Debug/net9.0/Tests.genruntimeconfig.cache
 /home/stuart/Source/AOC2025CSharp/Tests/obj/Debug/net9.0/ref/Tests.dll
+/home/stuart/Source/AOC2025CSharp/Tests/obj/Debug/net9.0/Tests.sourcelink.json
