@@ -2,25 +2,34 @@
 using System.Diagnostics;
 using AOC2025CSharp;
 
-Stopwatch sw = new Stopwatch();
-sw.Start();
+internal class Program
+{
+    public static void Main(string[] args)
+    {
+        Stopwatch sw = new Stopwatch();
+        sw.Start();
 
-Day1.Part1();
-Day1.Part2();
+        Day1.Part1();
+        Day1.Part2();
 
-Day2.Part1();
-Day2.Part2();
+        Day2.Part1();
+        Day2.Part2();
 
-Day3.Part1();
-Day3.Part2();
+        Day3.Part1();
+        Day3.Part2();
 
-Day4.Part1();
-Day4.Part2();
+        Day4.Part1();
+        Day4.Part2();
 
-Day5.Part1();
-Day5.Part2();
+        Day5.Part1();
+        Day5.Part2();
 
-sw.Stop();
+        Day6.Part1();
+        Day6.Part2();
 
-Console.WriteLine($"");
-Console.WriteLine($"Total Elapsed - {sw.Elapsed}");
+        sw.Stop();
+
+        Console.WriteLine($"");
+        Console.WriteLine($"Total Elapsed - {sw.Elapsed}");
+    }
+}
