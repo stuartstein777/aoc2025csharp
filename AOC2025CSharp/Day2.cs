@@ -85,15 +85,16 @@ public static class Day2
     private static bool Filter2(double x)
     {
         var s = x.ToString(CultureInfo.InvariantCulture);
+        
         var lim = s.Length /2+1;
     
         for(var i = 1; i < lim; i++)
         {
             var xs = s.Chunk(i).ToList();
+
             // Are all x in xs the same
             if(xs.All(y => y.SequenceEqual(xs.First())) && xs.Count() >= 2)
             {
-                //$"Found invalid: {x}".Dump(); 
                 return true;
             }
         }
@@ -101,3 +102,4 @@ public static class Day2
     }
 
 }
+
