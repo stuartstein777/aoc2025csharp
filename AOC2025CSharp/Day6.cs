@@ -53,7 +53,7 @@ public static class Day6
             
         }
         
-        Console.WriteLine(totals.Sum());
+        Console.WriteLine($"Day 6 Part 1 Answer: {totals.Sum().ToString(),-20}{sw.Elapsed}");
         
         sw.Stop();
     }
@@ -124,7 +124,7 @@ public static class Day6
             }
         }
         
-        Console.WriteLine($"Answer: {answer}");
+        Console.WriteLine($"Day 6 Part 2 Answer: {answer.ToString(),-20}{sw.Elapsed}");
         
         sw.Stop();
     }
